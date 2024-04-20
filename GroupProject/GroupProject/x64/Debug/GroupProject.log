@@ -1,0 +1,5 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (GroupProject.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  program.cpp
+  functions.cpp
+  Generating Code...
+  GroupProject.vcxproj -> C:\Users\Zlatan\Desktop\meow\No-Name\GroupProject\x64\Debug\QuizPort.exe
