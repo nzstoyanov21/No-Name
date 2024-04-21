@@ -1,8 +1,10 @@
 #include <iostream>
 #include <fstream>
+#include <iomanip>
 #include <map>
 #include <string>
 #include "../StaticLibrary/functions.h"
+#include "../StaticLibrary/front-end.h"
 
 using namespace std;
 
@@ -29,6 +31,11 @@ void loadAccounts(map<string, Account>& accounts) {
 }
 
 void accountScreen() {
+    system("cls");
+    string address = "../TextFiles(Front-end)/quizPort.txt";
+    print(address);
+
+
     map<string, Account> accounts;
     loadAccounts(accounts); // Load existing accounts
 
@@ -36,10 +43,10 @@ void accountScreen() {
     int number;
     char choice;
 
-    cout << "1. Create Account\n";
-    cout << "2. Login\n";
-    cout << "3. Exit\n";
-    cout << "Enter choice: ";
+    cout << setw(120)<< "1. Create Account\n";
+    cout << setw(114) << "2. Login\n";
+    cout << setw(113) << "3. Exit\n";
+    cout << setw(117) << "Enter choice: ";
     cin >> choice;
 
     switch (choice) {
