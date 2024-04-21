@@ -7,9 +7,16 @@
 <br>
 
 ## 👨🏻‍💻 Team Members
-
+| **Name** | **Role** | **Grade** |
+| :---:   | :---: | :---: |
+| Nikolay Stoyanov | *Scrum trainer* | 10A |
+| Zlatin Lazarov | *Back-end developer*  | 9B |
+| Kristian Dimitrov | *Back-end developer*  | 9B |
+| Ivaylo Gyurov |  *Back-end developer*  | 9B |
+| Miroslav Ivanov |  *Back-end developer*  | 10A |
+|  |  *Q&A*  | 10 |
 ## 📋 Description
-
+<p>"QuizPort" is a dynamic team that leverages coding to revolutionize the way students are tested across various subjects.This group of innovative developers seeks to create a fun, interactive and adaptive testing platform.</p>
 
 ## 📝 Documents
 
