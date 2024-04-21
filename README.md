@@ -1,37 +1,78 @@
-<h1 align="center">No Name</h1>
+<h1 align="center"> NO NAME <h1>
 
-<p align = "center">
-  
-</p>
+<div align="center" style="border-radius:50%" ><img src="/assets/logo.png" alt="logo with text NO NAME"> </div>
 
-<br>
+<div align="center"> 
 
-## 👨🏻‍💻 Team Members
-| **Name** | **Role** | **Grade** |
-| :---:   | :---: | :---: |
-| Nikolay Stoyanov | *Scrum trainer* | 10A |
-| Zlatin Lazarov | *Back-end developer*  | 9B |
-| Kristian Dimitrov | *Back-end developer*  | 9B |
-| Ivaylo Gyurov |  *Back-end developer*  | 9B |
-| Miroslav Ivanov |  *Back-end developer*  | 10A |
-|  |  *Q&A*  | 10 |
-## 📋 Description
-<p>"QuizPort" is a dynamic team that leverages coding to revolutionize the way students are tested across various subjects.This group of innovative developers seeks to create a fun, interactive and adaptive testing platform.</p>
+</div>
 
-## 📝 Documents
+## 📋 Table of contents
+  - [Description](#description)
+  - [Documentation](#docs)
+  - [How to run](#install)
+  - [Technologies](#technologies)
+  - [Collaborators](#collaborators)
+
+## 🔍 Description <a name="description"></a>
+QuizPort is a dynamic team that leverages coding to revolutionize the way students are tested across various subjects.
+This group of innovative developers seeks to create a fun, interactive and adaptive testing platform.
+
+## 📃 Documentation <a name="docs"></a>
+### Code & Team Documentation
+
+[Team Documentation]()
+
+### QA Documentation
+[QA Documentation]()
+
+### Presentation
+[Presentation]()
+
+## 🚀 How to run <a name="install"></a>
+*The following instructions are going to show you how to set up the project*
+
+### Get the release from the releases page.
+Download the latest release from the releases page and run the exe file
+
+### Compile from source
+- Prerequisites
+  - [Visual Studio](https://visualstudio.microsoft.com/vs/) with C++ compiler
+  - [Git](https://git-scm.com/)
+- Installation
+1. Clone the repo.
+```
+git clone https://github.com/nzstoyanov21/No-Name.git
+```
+2. Open the solution file with Visual Studio
+3. Compile the project by hitting CTRL + F5 key combination
+
+## 🖥️ Technologies used <a name="technologies"></a>
+### IDE & version control system:
+
+<a href="https://visualstudio.microsoft.com/vs/"><img src="/assets/icons/visualStudioIcon.png" alt="VS Icon" width="60"/></a>
+<a href="https://github.com/"><img src="/assets/icons/gitHubIcon.png" alt="GitHub Icon" width="60"/></a>
+<a href="https://git-scm.com/"><img src="/assets/icons/gitIcon.png" alt="Git" width="60"/></a>
+
+### Programming languages & third-party libraries:
+
+<a href="https://cplusplus.com/"><img src="/assets/icons/cppIcon.png" alt="CPP Icon" width="60"/></a>
 
 
-  ## ⚒️ Used technologies
-<p align="left">
-  <a href="https://visualstudio.microsoft.com/vs/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Visual_Studio_Icon_2022.svg/1200px-Visual_Studio_Icon_2022.svg.png" heigh=48px width=48px/></a>
-  <a href="https://www.microsoft.com/en-ww/microsoft-365/word"><img src="https://img.icons8.com/fluency/48/000000/microsoft-word-2019.png" alt="MS Word logo" width=48px /></a>
-  <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint"><img src="https://img.icons8.com/fluency/48/000000/microsoft-powerpoint-2019.png" alt="MS PowerPoint logo" width=48px />
-  <a href="https://www.microsoft.com/en/microsoft-teams/group-chat-software"><img width="48" height="48" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/1200px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png" alt="Microsoft-Teams"/>
-  <a href="https://git-scm.com/"><img src="https://img.icons8.com/color/48/000000/git.png" alt="Git"/></a>
-  <a href="https://git-scm.com/"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" heigh=48px width=48px/></a>
-</p> 
-    
-## 💻 Languages
-<p>
-<a><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" heigh=48px width=48px/></a>
-</p>
+### Tools used for documantation, presentation & communication:
+
+<a href="https://www.microsoft.com/en-ww/microsoft-365/word?activetab=tabs%3afaqheaderregion3"><img src="/assets/icons/wordIcon.png" alt="Word Icon" width="60"/></a>
+<a href="https://www.microsoft.com/en-ww/microsoft-365/powerpoint"><img src="/assets/icons/powerPointIcon.png" alt="PowerPoint Icon" width="60"/></a>
+<a href="https://www.microsoft.com/en-ww/microsoft-365/excel"><img src="/assets/icons/excelIcon.png" alt="Excel Icon" width="60"/></a>
+<a href="https://www.microsoft.com/en-us/microsoft-teams/group-chat-software"><img src="/assets/icons/teamsIcon.png" alt="Teams Icon" width="60"/></a>
+
+### Art & Design
+<a href="https://www.adobe.com/creativecloud.html"><img src="/assets/icons/adobeXDIcon.png" alt="AdobeEX Icon" width="60"/></a>
+
+
+## 🧑 Collaborators <a name="collaborators"></a>
+- [Nikolai Stoyanov](https://github.com/NZStoyanov21) - Scrum trainer
+- [Ivelin Bozhilov](https://github.com/IIBozhilov21) - QA Engineer
+- [Miroslav Ivanov](https://github.com/MSIvanov21) - Back-end Developer
+- [Zlatin Lazarov](https://github.com/ZRLazarov22) - Back-end Developer
+- [Ivaylo Gyurov](https://github.com/IRGyurov22) - Back-end Developer
+- [Kristian Dimitrov](https://github.com/KDDimitrov22) - Back-end Developer
