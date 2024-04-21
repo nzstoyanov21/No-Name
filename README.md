@@ -1,6 +1,6 @@
 <h1 align="center"> NO NAME <h1>
 
-<div align="center" style="border-radius:50%" ><img src="/assets/logo.png" alt="logo with text NO NAME"> </div>
+<div align="center" style="border-radius:50%" ><img src="/assets/Banner.png" alt="banner with text NO NAME"> </div>
 
 <div align="center"> 
 
@@ -18,7 +18,7 @@ QuizPort is a dynamic team that leverages coding to revolutionize the way studen
 This group of innovative developers seeks to create a fun, interactive and adaptive testing platform.
 
 ## 📃 Documentation <a name="docs"></a>
-### Code & Team Documentation
+### Team Documentation
 
 [Team Documentation]()
 
@@ -30,9 +30,6 @@ This group of innovative developers seeks to create a fun, interactive and adapt
 
 ## 🚀 How to run <a name="install"></a>
 *The following instructions are going to show you how to set up the project*
-
-### Get the release from the releases page.
-Download the latest release from the releases page and run the exe file
 
 ### Compile from source
 - Prerequisites
@@ -66,7 +63,7 @@ git clone https://github.com/nzstoyanov21/No-Name.git
 <a href="https://www.microsoft.com/en-us/microsoft-teams/group-chat-software"><img src="/assets/icons/teamsIcon.png" alt="Teams Icon" width="60"/></a>
 
 ### Art & Design
-<a href="https://www.adobe.com/creativecloud.html"><img src="/assets/icons/adobeXDIcon.png" alt="AdobeEX Icon" width="60"/></a>
+<a href="https://www.adobe.com/creativecloud.html"><img src="/assets/icons/adobeXDIcon.png" alt="Figma Icon" width="60"/></a>
 
 
 ## 🧑 Collaborators <a name="collaborators"></a>
