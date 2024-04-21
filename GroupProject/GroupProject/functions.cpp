@@ -2,7 +2,8 @@
 #include <fstream>
 #include <map>
 #include <string>
-#include "functions.h"
+#include "../StaticLibrary/functions.h"
+
 using namespace std;
 
 
