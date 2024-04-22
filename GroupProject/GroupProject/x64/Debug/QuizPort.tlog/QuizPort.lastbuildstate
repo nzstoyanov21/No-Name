@@ -1,2 +1,12 @@
+<<<<<<< HEAD
 PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.31.31103:TargetPlatformVersion=10.0.19041.0:
 Debug|x64|C:\Users\Miro\source\repos\No-Name\GroupProject\|
+=======
+<<<<<<< HEAD
+PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.39.33519:TargetPlatformVersion=10.0.22000.0:
+Debug|x64|C:\Users\Ivelin\source\repos\No-Name\GroupProject\|
+=======
+PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.39.33519:TargetPlatformVersion=10.0.22621.0:
+Debug|x64|C:\Users\Zlatan\Desktop\r\No-Name\GroupProject\|
+>>>>>>> dbb4a6e0bb8ada29b5c33a3f08420d881cd2e693
+>>>>>>> 3deb42799208c89c703fde004af63a68cbc2fa99
