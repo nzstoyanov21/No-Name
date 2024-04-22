@@ -18,15 +18,16 @@ No Name is a dynamic team that leverages coding to revolutionize the way student
 This group of innovative developers seeks to create a fun, interactive and adaptive testing platform.
 
 ## 📃 Documentation <a name="docs"></a>
-### Team Documentation
+### Test Plan & Team Documentation
+[Test Plan Documentation](https://github.com/nzstoyanov21/No-Name/blob/8807292e75daa344ab6f3ae5dc293cca17569e45/docs/No_Name%20-%20Test%20plan.docx)
 
-[Team Documentation]()
+[Team Documentation](https://github.com/nzstoyanov21/No-Name/blob/3deb42799208c89c703fde004af63a68cbc2fa99/docs/No_Name%20-%20Documentation.docx)
 
 ### QA Documentation
-[QA Documentation]()
+[QA Documentation](https://github.com/nzstoyanov21/No-Name/blob/3deb42799208c89c703fde004af63a68cbc2fa99/docs/No_Name%20-%20QA%20Documentation.xlsx)
 
 ### Presentation
-[Presentation]()
+[Presentation](https://github.com/nzstoyanov21/No-Name/blob/3deb42799208c89c703fde004af63a68cbc2fa99/docs/No_Name%20-%20Presentation.pptx)
 
 ## 🚀 How to run <a name="install"></a>
 *The following instructions are going to show you how to set up the project*
@@ -68,8 +69,8 @@ git clone https://github.com/nzstoyanov21/No-Name.git
 
 ## 🧑 Collaborators <a name="collaborators"></a>
 - [Nikolay Stoyanov](https://github.com/NZStoyanov21) - Scrum trainer
-- [Ivelin Bozhilov](https://github.com/IIBozhilov21) - QA Engineer
 - [Miroslav Ivanov](https://github.com/MSIvanov21) - Back-end Developer
 - [Zlatin Lazarov](https://github.com/ZRLazarov22) - Back-end Developer
 - [Ivaylo Gyurov](https://github.com/IRGyurov22) - Back-end Developer
 - [Kristian Dimitrov](https://github.com/KDDimitrov22) - Back-end Developer
+- [Ivelin Bozhilov](https://github.com/IIBozhilov21) - QA Engineer
