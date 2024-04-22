@@ -16,6 +16,7 @@ int main() {
 
 
     cout << setw(130) << "1. Test Your Knowledge   2. Leaderboard\n";
+    cout << setw(119) << "Choose an option: ";
     int userInput;
     cin >> userInput;
     switch (userInput) {

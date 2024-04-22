@@ -99,7 +99,7 @@ void accountScreen() {
             if (accounts[username].password == password) {
                 clear();
                 print(address);
-                cout << setw(122) << "Login successful!\n";
+                cout << setw(119) << "Login successful!\n";
                 currentUser = username;
             }
             else {
@@ -155,9 +155,17 @@ void shuffle(char arr[], string array[][3], int arrsize) {
 }
 
 void questions(string questions[][3], char answers[], int& score, int numberOfQuestions, int points) {
-    for (int i = 0; i < numberOfQuestions; i++) {
-        cout << questions[i][0] << endl << questions[i][1] << endl << questions[i][2] << endl;
+    string address = "../TextFiles(Front-end)/question.txt";
+
+    for (int i = 0; i < numberOfQuestions; i++) { 
+        print(address);
+        cout << "   " << questions[i][0] << endl;
+        cout << "   " << questions[i][1] << endl;
+        cout << "   " << questions[i][2] << endl;
         char userAnswer;
+        cout << "  _______________________________________________" << endl;
+        cout << " |_______________________________________________|" << endl;
+        cout << "   Your answer: ";
         cin >> userAnswer;
         clear();
         if (tolower(userAnswer) == answers[i]) {
