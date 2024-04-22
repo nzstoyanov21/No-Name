@@ -67,7 +67,7 @@ git clone https://github.com/nzstoyanov21/No-Name.git
 
 
 ## 🧑 Collaborators <a name="collaborators"></a>
-- [Nikolai Stoyanov](https://github.com/NZStoyanov21) - Scrum trainer
+- [Nikolay Stoyanov](https://github.com/NZStoyanov21) - Scrum trainer
 - [Ivelin Bozhilov](https://github.com/IIBozhilov21) - QA Engineer
 - [Miroslav Ivanov](https://github.com/MSIvanov21) - Back-end Developer
 - [Zlatin Lazarov](https://github.com/ZRLazarov22) - Back-end Developer
