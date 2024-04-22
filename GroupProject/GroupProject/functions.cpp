@@ -741,11 +741,17 @@ void test() {
     case 10:cout << "A+"; break;
     default:cout << "F"; break;
     }
-    cout << endl << "Your score is: " << score << "/100";
+    cout << endl << "Your score is: " << score << "/100\n\n";
+    cout << "Press Any button To Go Back\n";
     if (score > accounts[currentUser].highScore) {
         accounts[currentUser].highScore = score;
         saveAccounts(accounts);
     }
+    char userInput;
+    cin >> userInput;
+    clear();
+    loggedIn();
+
 }
 bool compare(const Account& a, const Account& b) {
     return a.highScore > b.highScore;
@@ -774,10 +780,14 @@ void statistics() {
         cout << setw(123) << "Account With Highest Score: " << highestTestScoreName << " " << highestTestScore.highScore << endl;
         cout << setw(125) << "Account With The Lowest Score: " << lowestTestScoreName << " " << lowestTestScore.highScore << endl << endl;
         cout << setw(125) << "Press Any Button To Go Back\n";
+        char userInput;
+        cin >> userInput;
+        clear();
+        loggedIn();
     }
 }
 void loggedIn() {
-    cout << setw(130) << "1. Test Your Knowledge   2. Statistics\n";
+    cout << setw(130) << "1. Test Your Knowledge   2. Statistics   3. Exit\n";
     int userInput;
     cin >> userInput;
     switch (userInput) {
@@ -789,6 +799,9 @@ void loggedIn() {
     case 2: {
         clear();
         statistics();
+    }
+    case 3: {
+        exit(0);
     }
     }
 }
