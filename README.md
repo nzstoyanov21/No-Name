@@ -46,24 +46,24 @@ git clone https://github.com/nzstoyanov21/No-Name.git
 ## 🖥️ Technologies used <a name="technologies"></a>
 ### IDE & version control system:
 
-<a href="https://visualstudio.microsoft.com/vs/"><img src="/assets/icons/visualStudioIcon.png" alt="VS Icon" width="60"/></a>
-<a href="https://github.com/"><img src="/assets/icons/gitHubIcon.png" alt="GitHub Icon" width="60"/></a>
-<a href="https://git-scm.com/"><img src="/assets/icons/gitIcon.png" alt="Git" width="60"/></a>
+<a href="https://visualstudio.microsoft.com/vs/"><img src="/assets/visualStudioIcon.png" alt="VS Icon" width="70"/></a>
+<a href="https://github.com/"><img src="/assets/gitHubIcon.png" alt="GitHub Icon" width="60"/></a>
+<a href="https://git-scm.com/"><img src="/assets/gitIcon.png" alt="Git" width="60"/></a>
 
-### Programming languages & third-party libraries:
+### Programming languages:
 
-<a href="https://cplusplus.com/"><img src="/assets/icons/cppIcon.png" alt="CPP Icon" width="60"/></a>
+<a href="https://cplusplus.com/"><img src="/assets/cppIcon.png" alt="CPP Icon" width="60"/></a>
 
 
 ### Tools used for documantation, presentation & communication:
 
-<a href="https://www.microsoft.com/en-ww/microsoft-365/word?activetab=tabs%3afaqheaderregion3"><img src="/assets/icons/wordIcon.png" alt="Word Icon" width="60"/></a>
-<a href="https://www.microsoft.com/en-ww/microsoft-365/powerpoint"><img src="/assets/icons/powerPointIcon.png" alt="PowerPoint Icon" width="60"/></a>
-<a href="https://www.microsoft.com/en-ww/microsoft-365/excel"><img src="/assets/icons/excelIcon.png" alt="Excel Icon" width="60"/></a>
-<a href="https://www.microsoft.com/en-us/microsoft-teams/group-chat-software"><img src="/assets/icons/teamsIcon.png" alt="Teams Icon" width="60"/></a>
+<a href="https://www.microsoft.com/en-ww/microsoft-365/word?activetab=tabs%3afaqheaderregion3"><img src="/assets/wordIcon.png" alt="Word Icon" width="60"/></a>
+<a href="https://www.microsoft.com/en-ww/microsoft-365/powerpoint"><img src="/assets/powerPointIcon.png" alt="PowerPoint Icon" width="60"/></a>
+<a href="https://www.microsoft.com/en-ww/microsoft-365/excel"><img src="/assets/excelIcon.png" alt="Excel Icon" width="60"/></a>
+<a href="https://www.microsoft.com/en-us/microsoft-teams/group-chat-software"><img src="/assets/teamsIcon.png" alt="Teams Icon" width="60"/></a>
 
 ### Art & Design
-<a href="https://www.adobe.com/creativecloud.html"><img src="/assets/icons/adobeXDIcon.png" alt="Figma Icon" width="60"/></a>
+<a href="https://www.figma.com/"><img src="/assets/figmaIcon.png" alt="Figma Icon" width="60"/></a>
 
 
 ## 🧑 Collaborators <a name="collaborators"></a>
