@@ -2,6 +2,8 @@ Ivelin 123 1
 Miroslav Ivanov 18
 a a 7
 arg arg 4
+ivelim 1 0
 ivo 23 2
 sno sno 40
+sto 4 0
 wad 23 1
