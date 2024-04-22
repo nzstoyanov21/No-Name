@@ -770,16 +770,17 @@ void statistics() {
     vector<Account> sortedAccounts;
     sortAccounts(accounts, sortedAccounts);
 
-    string address = "../TextFiles(Front-end)/quizPort.txt";
+    string address = "../TextFiles(Front-end)/statistics.txt";
 
     if (!sortedAccounts.empty()) {
         const Account& highestTestScore = sortedAccounts.front();
         const Account& lowestTestScore = sortedAccounts.back();
         string highestTestScoreName = highestTestScore.username, lowestTestScoreName = lowestTestScore.username;
         print(address);
-        cout << setw(123) << "Account With Highest Score: " << highestTestScoreName << " " << highestTestScore.highScore << endl;
+        cout << setw(123) << endl << "Account With Highest Score: " << highestTestScoreName << " " << highestTestScore.highScore << endl;
         cout << setw(125) << "Account With The Lowest Score: " << lowestTestScoreName << " " << lowestTestScore.highScore << endl << endl;
         cout << setw(125) << "Press Any Button To Go Back\n";
+        cout << setw(149) << "======================================================================\n\n";
         char userInput;
         cin >> userInput;
         clear();
@@ -787,21 +788,28 @@ void statistics() {
     }
 }
 void loggedIn() {
-    cout << setw(130) << "1. Test Your Knowledge   2. Statistics   3. Exit\n";
-    int userInput;
+    system("cls");
+    string address = "../TextFiles(Front-end)/quizPort.txt";
+    print(address);
+
+
+    cout << setw(137) << endl << "1. Test Your Knowledge   2. Statistics   3. Exit\n";
+    cout << setw(119) << endl << "Choose an option: ";
+    char userInput;
     cin >> userInput;
     switch (userInput) {
-    case 1: {
+    case '1': {
         clear();
         test();
         break;
     }
-    case 2: {
+    case '2': {
         clear();
         statistics();
-    }
-    case 3: {
+    } break;
+    case '3': {
         exit(0);
     }
+    default: loggedIn(); break;
     }
 }
