@@ -747,3 +747,48 @@ void test() {
         saveAccounts(accounts);
     }
 }
+bool compare(const Account& a, const Account& b) {
+    return a.highScore > b.highScore;
+}
+
+void sortAccounts(const map<string, Account>& accounts, vector<Account>& sortedAccounts) {
+    for (const auto& pair : accounts) {
+        sortedAccounts.push_back(pair.second);
+    }
+    sort(sortedAccounts.begin(), sortedAccounts.end(), compare);
+}
+
+void statistics() {
+    map<string, Account> accounts;
+    loadAccounts(accounts);
+    vector<Account> sortedAccounts;
+    sortAccounts(accounts, sortedAccounts);
+
+    string address = "../TextFiles(Front-end)/quizPort.txt";
+
+    if (!sortedAccounts.empty()) {
+        const Account& highestTestScore = sortedAccounts.front();
+        const Account& lowestTestScore = sortedAccounts.back();
+        string highestTestScoreName = highestTestScore.username, lowestTestScoreName = lowestTestScore.username;
+        print(address);
+        cout << setw(123) << "Account With Highest Score: " << highestTestScoreName << " " << highestTestScore.highScore << endl;
+        cout << setw(125) << "Account With The Lowest Score: " << lowestTestScoreName << " " << lowestTestScore.highScore << endl << endl;
+        cout << setw(125) << "Press Any Button To Go Back\n";
+    }
+}
+void loggedIn() {
+    cout << setw(130) << "1. Test Your Knowledge   2. Statistics\n";
+    int userInput;
+    cin >> userInput;
+    switch (userInput) {
+    case 1: {
+        clear();
+        test();
+        break;
+    }
+    case 2: {
+        clear();
+        statistics();
+    }
+    }
+}

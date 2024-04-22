@@ -5,11 +5,13 @@
 
 #include <map>
 #include <string>
+#include <vector>
 
 // Structure to hold account information
 struct Account {
     std::string password;
-    int highScore=0;
+    int highScore = 0;
+    std::string username;
 };
 
 // Function declarations
@@ -29,4 +31,11 @@ void clear();
 
 void test();
 
+bool compare(const Account& a, const Account& b);
+
+void sortAccounts(const std::map<std::string, Account>& accounts, std::vector<Account>& sortedAccounts);
+
+void statistics();
+
+void loggedIn();
 #endif
