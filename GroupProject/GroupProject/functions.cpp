@@ -99,7 +99,7 @@ void accountScreen() {
             if (accounts[username].password == password) {
                 clear();
                 print(address);
-                cout << setw(122) << "Login successful!\n";
+                cout << setw(119) << "Login successful!\n";
                 currentUser = username;
             }
             else {
@@ -155,9 +155,17 @@ void shuffle(char arr[], string array[][3], int arrsize) {
 }
 
 void questions(string questions[][3], char answers[], int& score, int numberOfQuestions, int points) {
-    for (int i = 0; i < numberOfQuestions; i++) {
-        cout << questions[i][0] << endl << questions[i][1] << endl << questions[i][2] << endl;
+    string address = "../TextFiles(Front-end)/question.txt";
+
+    for (int i = 0; i < numberOfQuestions; i++) { 
+        print(address);
+        cout << "   " << questions[i][0] << endl;
+        cout << "   " << questions[i][1] << endl;
+        cout << "   " << questions[i][2] << endl;
         char userAnswer;
+        cout << "  _______________________________________________" << endl;
+        cout << " |_______________________________________________|" << endl;
+        cout << "   Your answer: ";
         cin >> userAnswer;
         clear();
         if (tolower(userAnswer) == answers[i]) {
@@ -733,9 +741,67 @@ void test() {
     case 10:cout << "A+"; break;
     default:cout << "F"; break;
     }
-    cout << endl << "Your score is: " << score << "/100";
+    cout << endl << "Your score is: " << score << "/100\n\n";
+    cout << "Press Any button To Go Back\n";
     if (score > accounts[currentUser].highScore) {
         accounts[currentUser].highScore = score;
         saveAccounts(accounts);
+    }
+    char userInput;
+    cin >> userInput;
+    clear();
+    loggedIn();
+
+}
+bool compare(const Account& a, const Account& b) {
+    return a.highScore > b.highScore;
+}
+
+void sortAccounts(const map<string, Account>& accounts, vector<Account>& sortedAccounts) {
+    for (const auto& pair : accounts) {
+        sortedAccounts.push_back(pair.second);
+    }
+    sort(sortedAccounts.begin(), sortedAccounts.end(), compare);
+}
+
+void statistics() {
+    map<string, Account> accounts;
+    loadAccounts(accounts);
+    vector<Account> sortedAccounts;
+    sortAccounts(accounts, sortedAccounts);
+
+    string address = "../TextFiles(Front-end)/quizPort.txt";
+
+    if (!sortedAccounts.empty()) {
+        const Account& highestTestScore = sortedAccounts.front();
+        const Account& lowestTestScore = sortedAccounts.back();
+        string highestTestScoreName = highestTestScore.username, lowestTestScoreName = lowestTestScore.username;
+        print(address);
+        cout << setw(123) << "Account With Highest Score: " << highestTestScoreName << " " << highestTestScore.highScore << endl;
+        cout << setw(125) << "Account With The Lowest Score: " << lowestTestScoreName << " " << lowestTestScore.highScore << endl << endl;
+        cout << setw(125) << "Press Any Button To Go Back\n";
+        char userInput;
+        cin >> userInput;
+        clear();
+        loggedIn();
+    }
+}
+void loggedIn() {
+    cout << setw(130) << "1. Test Your Knowledge   2. Statistics   3. Exit\n";
+    int userInput;
+    cin >> userInput;
+    switch (userInput) {
+    case 1: {
+        clear();
+        test();
+        break;
+    }
+    case 2: {
+        clear();
+        statistics();
+    }
+    case 3: {
+        exit(0);
+    }
     }
 }

@@ -13,7 +13,7 @@ void print(string str)
     if (newfile.is_open()) {
         string tp;
         while (getline(newfile, tp)) {
-            cout << setw(129) << tp << endl;
+            cout << tp << endl;
         }
         newfile.close();
     }

@@ -2,7 +2,11 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< HEAD
       <FullPath>C:\Users\Ivelin\source\repos\No-Name\GroupProject\x64\Debug\QuizPort.exe</FullPath>
+=======
+      <FullPath>C:\Users\Zlatan\Desktop\r\No-Name\GroupProject\x64\Debug\QuizPort.exe</FullPath>
+>>>>>>> dbb4a6e0bb8ada29b5c33a3f08420d881cd2e693
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
