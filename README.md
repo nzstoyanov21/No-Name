@@ -14,7 +14,7 @@
   - [Collaborators](#collaborators)
 
 ## 🔍 Description <a name="description"></a>
-QuizPort is a dynamic team that leverages coding to revolutionize the way students are tested across various subjects.
+No Name is a dynamic team that leverages coding to revolutionize the way students are tested across various subjects.
 This group of innovative developers seeks to create a fun, interactive and adaptive testing platform.
 
 ## 📃 Documentation <a name="docs"></a>
